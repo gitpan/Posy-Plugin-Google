@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Posy-Plugin-Google.t
+lib/Posy/Plugin/Google.pm
+META.yml                                 Module meta-data (added by MakeMaker)

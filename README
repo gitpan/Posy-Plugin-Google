@@ -1,0 +1,43 @@
+Posy::Plugin::Google version 0.1
+================================
+
+This module allows one to easily insert "I'm Feeling Lucky" searches
+from Google in one's entry files.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Posy
+  Posy::Core
+  Test::More
+
+ACTIVATION
+
+Add this module to Posy's @plugins array.
+
+Add the "google" action to Posy's @entry_actions array between
+"parse_entry" and "render_entry".
+
+USE
+
+Any text that matches the pattern "{{google:<search term(s)}}"
+within one's entry files will be converted into Google "I'm Feeling
+Lucky" searches.  
+
+COPYRIGHT AND LICENSE
+
+Copyright (C) 2005 blair christensen.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+
